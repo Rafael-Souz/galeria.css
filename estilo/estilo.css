@@ -1,0 +1,19 @@
+.galeria {
+    width: 85vw;
+    height: 60vmin;
+    display: flex;
+    gap: 8px;
+}
+
+.galeria img {
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.galeria img:hover {
+    flex: 4;
+}
